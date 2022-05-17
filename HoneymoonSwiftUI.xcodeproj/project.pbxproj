@@ -11,6 +11,7 @@
 		806DD37C28339AC0000E71E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DD37B28339AC0000E71E3 /* ContentView.swift */; };
 		806DD37E28339AC7000E71E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806DD37D28339AC7000E71E3 /* Assets.xcassets */; };
 		806DD38128339AC7000E71E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806DD38028339AC7000E71E3 /* Preview Assets.xcassets */; };
+		806DD38828339FC5000E71E3 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 806DD38728339FC5000E71E3 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		806DD37B28339AC0000E71E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		806DD37D28339AC7000E71E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806DD38028339AC7000E71E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		806DD38728339FC5000E71E3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		806DD37828339AC0000E71E3 /* HoneymoonSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				806DD38728339FC5000E71E3 /* Sounds */,
 				806DD37928339AC0000E71E3 /* HoneymoonSwiftUIApp.swift */,
 				806DD37B28339AC0000E71E3 /* ContentView.swift */,
 				806DD37D28339AC7000E71E3 /* Assets.xcassets */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806DD38828339FC5000E71E3 /* Sounds in Resources */,
 				806DD38128339AC7000E71E3 /* Preview Assets.xcassets in Resources */,
 				806DD37E28339AC7000E71E3 /* Assets.xcassets in Resources */,
 			);

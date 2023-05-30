@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		8024FE44293640B8005AA158 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		803A74A32A24BFD200630E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		806DD37628339AC0000E71E3 /* HoneymoonSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneymoonSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806DD37928339AC0000E71E3 /* HoneymoonSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonSwiftUIApp.swift; sourceTree = "<group>"; };
 		806DD37B28339AC0000E71E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		806DD37828339AC0000E71E3 /* HoneymoonSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				803A74A32A24BFD200630E3A /* Info.plist */,
 				806FA2C52966E672000709E1 /* Modifier */,
 				80E452C7292E0B5100CA4CA7 /* View */,
 				80D44BD4292E319C00B11D47 /* Component */,
@@ -362,7 +364,7 @@
 				DEVELOPMENT_TEAM = H9XS4L957H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = HoneymoonSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
@@ -393,7 +395,7 @@
 				DEVELOPMENT_TEAM = H9XS4L957H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = HoneymoonSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";

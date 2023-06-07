@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8024FE45293640B8005AA158 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8024FE44293640B8005AA158 /* InfoView.swift */; };
+		804983FB2A3071B700896B57 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804983FA2A3071B700896B57 /* SymbolModifier.swift */; };
 		806DD37A28339AC0000E71E3 /* HoneymoonSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DD37928339AC0000E71E3 /* HoneymoonSwiftUIApp.swift */; };
 		806DD37C28339AC0000E71E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DD37B28339AC0000E71E3 /* ContentView.swift */; };
 		806DD37E28339AC7000E71E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806DD37D28339AC7000E71E3 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		8024FE44293640B8005AA158 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		803A74A32A24BFD200630E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		804983FA2A3071B700896B57 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 		806DD37628339AC0000E71E3 /* HoneymoonSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneymoonSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806DD37928339AC0000E71E3 /* HoneymoonSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonSwiftUIApp.swift; sourceTree = "<group>"; };
 		806DD37B28339AC0000E71E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				806FA2C32966E624000709E1 /* TitleModifier.swift */,
 				806FA2C62966E9E2000709E1 /* ButtonModifier.swift */,
+				804983FA2A3071B700896B57 /* SymbolModifier.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				8024FE45293640B8005AA158 /* InfoView.swift in Sources */,
 				80E452CD292E24D500CA4CA7 /* FooterView.swift in Sources */,
 				806FA2C42966E624000709E1 /* TitleModifier.swift in Sources */,
+				804983FB2A3071B700896B57 /* SymbolModifier.swift in Sources */,
 				80E452CB292E216E00CA4CA7 /* HeaderView.swift in Sources */,
 				806F2BDB292E024500AB5733 /* HoneymoonModel.swift in Sources */,
 				806FA2C72966E9E2000709E1 /* ButtonModifier.swift in Sources */,
